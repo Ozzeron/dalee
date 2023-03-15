@@ -85,7 +85,7 @@
     const prompt = document.getElementById('prompt').value;
     const num_outputs = document.getElementById('num_outputs').value;
     const size = document.getElementById('size').value;
-    const bearerToken = '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';
+    const bearerToken = '${{ secrets.OPENAITOKEN }}';;
 
     try {
       // Send request to OpenAI API
